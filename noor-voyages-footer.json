@@ -1,0 +1,35 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages Footer",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvfoot01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "structure": "10",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "nvfcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvfhtml1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<footer class='nvf'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&f[]=caveat-brush@400&display=swap');.nvf{--pk:#FF4FA3;--tl:#14B8A6;--yl:#FFCE4E;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;--fb:'Satoshi',system-ui,sans-serif;font-family:var(--fb);background:var(--ik);color:var(--cr);line-height:1.55;overflow:hidden;border-top:2px solid var(--ik)}.nvf *{box-sizing:border-box}.nvf a{color:inherit;text-decoration:none}.nvf .wrap{max-width:1200px;margin:0 auto;padding:0 24px}.nvf .grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:40px;padding:64px 0 50px}.nvf .brand{font-family:var(--fd);font-weight:700;font-size:22px;letter-spacing:.12em}.nvf .tag{margin-top:16px;color:#fff6ec99;font-size:15px;max-width:280px}.nvf .soc{display:flex;gap:10px;margin-top:20px}.nvf .soc a{width:42px;height:42px;border-radius:999px;border:2px solid #fff6ec55;display:flex;align-items:center;justify-content:center;transition:background .2s,border-color .2s,transform .2s}.nvf .soc a:hover{background:var(--pk);border-color:var(--pk);transform:translateY(-3px)}.nvf .soc svg{width:18px;height:18px}.nvf h4{font-family:var(--fb);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--yl);margin:0 0 18px}.nvf ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.nvf ul a{color:#fff6eccc;font-size:15px;transition:color .2s,padding-left .2s}.nvf ul a:hover{color:var(--pk);padding-left:5px}.nvf .addr{color:#fff6eccc;font-size:15px;line-height:1.7;white-space:pre-line}.nvf .addr.hrs{margin-top:14px}.nvf .bottom{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 0 28px;border-top:1px solid #fff6ec22;color:#fff6ec88;font-size:13.5px}.nvf .big{font-family:var(--fd);font-weight:600;font-size:clamp(60px,13vw,190px);letter-spacing:.02em;line-height:.9;text-align:center;color:transparent;-webkit-text-stroke:1.5px #fff6ec33;text-stroke:1.5px #fff6ec33;user-select:none;pointer-events:none;padding-bottom:14px;white-space:nowrap}@media(max-width:900px){.nvf .grid{grid-template-columns:1fr 1fr}}@media(max-width:520px){.nvf .grid{grid-template-columns:1fr}}</style><div class='wrap'><div class='grid'><div><div class='brand'>NOOR VOYAGES</div><p class='tag' data-en='Travel, reimagined with joy. Based on Rue Jarry, flying everywhere.' data-fr='Voyager, avec joie. Sur la rue Jarry, vers partout.'>Travel, reimagined with joy. Based on Rue Jarry, flying everywhere.</p><div class='soc'><a href='#' aria-label='Instagram'><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='2' width='20' height='20' rx='5'/><circle cx='12' cy='12' r='4'/><circle cx='17.5' cy='6.5' r='1' fill='currentColor' stroke='none'/></svg></a><a href='#' aria-label='Facebook'><svg viewBox='0 0 24 24' fill='currentColor'><path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/></svg></a><a href='https://wa.me/14506001616' aria-label='WhatsApp'><svg viewBox='0 0 24 24' fill='currentColor'><path d='M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.7-.5.5c-.1.2-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.5 2.6 1.6.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.4 0 .1 0 .8-.2 1.5z'/></svg></a></div></div><div><h4 data-en='Explore' data-fr='Explorer'>Explore</h4><ul><li><a href='/packages/' data-en='Beach escapes' data-fr='Sejours plage'>Beach escapes</a></li><li><a href='/packages/' data-en='Hajj &amp; Umrah' data-fr='Hajj &amp; Omra'>Hajj &amp; Umrah</a></li><li><a href='/packages/' data-en='Morocco' data-fr='Maroc'>Morocco</a></li><li><a href='/packages/' data-en='European cities' data-fr='Villes europeennes'>European cities</a></li><li><a href='/packages/' data-en='Honeymoons' data-fr='Lunes de miel'>Honeymoons</a></li><li><a href='/destinations/' data-en='All destinations' data-fr='Toutes les destinations'>All destinations</a></li></ul></div><div><h4 data-en='Agency' data-fr='L agence'>Agency</h4><ul><li><a href='/about/' data-en='About us' data-fr='A propos'>About us</a></li><li><a href='/about/' data-en='Meet the agents' data-fr='Nos agents'>Meet the agents</a></li><li><a href='/flights/' data-en='Flights' data-fr='Vols'>Flights</a></li><li><a href='/contact/' data-en='Contact us' data-fr='Nous joindre'>Contact us</a></li><li><a href='/contact/' data-en='Travel insurance' data-fr='Assurance voyage'>Travel insurance</a></li></ul></div><div><h4 data-en='Contact' data-fr='Contact'>Contact</h4><div class='addr'>212-6830 Rue Jarry E\nMontreal, Quebec  H1P 1W3\nCanada</div><div class='addr hrs' data-en='Mon-Fri 9:00-19:00\nSat 10:00-16:00\nSun - by appointment' data-fr='Lun-Ven 9h00-19h00\nSam 10h00-16h00\nDim - sur rendez-vous'>Mon-Fri 9:00-19:00\nSat 10:00-16:00\nSun - by appointment</div></div></div><div class='bottom'><span data-en='&copy; 2026 Noor Voyages Inc. - Quebec permit #TBD' data-fr='&copy; 2026 Noor Voyages Inc. - Permis Quebec #A venir'>&copy; 2026 Noor Voyages Inc. - Quebec permit #TBD</span><span>450-600-1616 &middot; info@noorvoyages.ca</span></div></div><div class='big'>NOOR VOYAGES</div><script>(function(){var f=document.querySelector('.nvf');if(!f)return;function ap(l){f.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.innerHTML=v.replace(/\\n/g,'<br>');});}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}if(cur==='FR')ap('FR');window.addEventListener('storage',function(e){if(e.key==='noor-lang')ap((e.newValue||'EN').toUpperCase());});document.addEventListener('click',function(e){if(e.target.closest('.lang,[data-nv-lang]')){setTimeout(function(){try{ap((localStorage.getItem('noor-lang')||'EN').toUpperCase());}catch(x){}},30);}});})();</script></footer>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
