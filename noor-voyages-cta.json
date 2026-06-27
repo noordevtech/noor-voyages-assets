@@ -1,0 +1,30 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages CTA",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvcta01",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no", "structure": "10", "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+      "elements": [
+        {
+          "id": "nvctac1",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvctah1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class='nvcta'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&f[]=caveat-brush@400&display=swap');.nvcta{--pk:#FF4FA3;--tl:#14B8A6;--yl:#FFCE4E;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;--fb:'Satoshi',system-ui,sans-serif;--fh:'Caveat Brush',cursive;position:relative;overflow:hidden;font-family:var(--fb);color:var(--ik);background:var(--cr);text-align:center;padding:96px 24px;border-top:2px solid var(--ik)}.nvcta *{box-sizing:border-box}.nvcta a{text-decoration:none}.nvcta .bg{position:absolute;inset:-10%;z-index:0;background:radial-gradient(520px 360px at 22% 18%,#ff4fa322,transparent 62%),radial-gradient(560px 400px at 80% 88%,#14b8a622,transparent 60%);animation:nvcd 16s ease-in-out infinite alternate}@keyframes nvcd{to{transform:scale(1.08)}}.nvcta .in{position:relative;z-index:2;max-width:900px;margin:0 auto;opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}.nvcta.show .in{opacity:1;transform:none}.nvcta .ey{display:inline-flex;align-items:center;gap:8px;justify-content:center;font-weight:700;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--pk)}.nvcta .ey::before{content:'';width:24px;height:2px;background:var(--pk)}.nvcta h2{font-family:var(--fd);font-weight:600;font-size:clamp(44px,7vw,96px);letter-spacing:-.025em;margin-top:16px;line-height:.96}.nvcta .hand{font-family:var(--fh);color:var(--pk);font-weight:400}.nvcta .sub{margin:20px auto 0;max-width:480px;color:#0e1b2cbb;font-size:18px}.nvcta .btn{display:inline-flex;align-items:center;gap:8px;margin-top:32px;border:2px solid var(--ik);border-radius:999px;padding:16px 28px;font-family:var(--fd);font-weight:600;font-size:16px;background:var(--pk);color:#fff;box-shadow:5px 5px 0 var(--ik);transition:transform .18s,box-shadow .18s}.nvcta .btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ik)}.nvcta .btn:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ik)}@media(prefers-reduced-motion:reduce){.nvcta .in{opacity:1!important;transform:none!important}.nvcta .bg{animation:none}}</style><div class='bg'></div><div class='in'><span class='ey' data-en='Let us plan it' data-fr='On planifie'>Let us plan it</span><h2><span data-en='Ready when ' data-fr='Prets quand '>Ready when </span><span class='hand' data-en='you' data-fr='vous'>you</span><span data-en=' are.' data-fr=' l etes.'> are.</span></h2><p class='sub' data-en='Tell us where your head goes when you close your eyes. We reply within 4 business hours, no commitment.' data-fr='Dites-nous ou va votre tete quand vous fermez les yeux. On repond en moins de 4 heures ouvrables, sans engagement.'>Tell us where your head goes when you close your eyes. We reply within 4 business hours, no commitment.</p><a class='btn' href='/contact/' data-en='Start planning' data-fr='Commencer a planifier'>Start planning</a></div><script>(function(){var c=document.querySelector('.nvcta');if(!c)return;function ap(l){c.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.textContent=v;});}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}if(cur==='FR')ap('FR');window.addEventListener('storage',function(e){if(e.key==='noor-lang')ap((e.newValue||'EN').toUpperCase());});document.addEventListener('click',function(e){if(e.target.closest('.lang,[data-nv-lang]')){setTimeout(function(){try{ap((localStorage.getItem('noor-lang')||'EN').toUpperCase());}catch(x){}},30);}});if('IntersectionObserver'in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){c.classList.add('show');io.disconnect();}});},{threshold:.2});io.observe(c);}else{c.classList.add('show');}})();</script></section>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}

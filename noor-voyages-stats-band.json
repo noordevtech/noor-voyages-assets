@@ -1,0 +1,30 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages Stats Band",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvsta01",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no", "structure": "10", "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+      "elements": [
+        {
+          "id": "nvstac1",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvstah1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class='nvstats'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&f[]=caveat-brush@400&display=swap');.nvstats{--pk:#FF4FA3;--tl:#14B8A6;--yl:#FFCE4E;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;--fb:'Satoshi',system-ui,sans-serif;--fh:'Caveat Brush',cursive;font-family:var(--fb);background:var(--ik);color:var(--cr);border-top:2px solid var(--ik);border-bottom:2px solid var(--ik);text-align:center}.nvstats *{box-sizing:border-box}.nvstats .inner{padding:90px 24px}.nvstats .ey{display:inline-flex;align-items:center;gap:8px;justify-content:center;font-weight:700;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--yl)}.nvstats .ey::before{content:'';width:24px;height:2px;background:var(--yl)}.nvstats h2{font-family:var(--fd);font-weight:600;font-size:clamp(40px,6vw,80px);letter-spacing:-.02em;margin-top:14px}.nvstats .hand{font-family:var(--fh);color:var(--yl);font-weight:400}.nvstats .ns{display:flex;justify-content:center;gap:clamp(28px,6vw,84px);flex-wrap:wrap;margin-top:54px}.nvstats .n{font-family:var(--fd);font-weight:600;font-size:clamp(44px,6vw,76px);line-height:1}.nvstats .ns div:nth-child(1) .n{color:var(--pk)}.nvstats .ns div:nth-child(2) .n{color:var(--tl)}.nvstats .ns div:nth-child(3) .n{color:var(--yl)}.nvstats .l{margin-top:8px;font-size:14px;color:#fff6ec99;letter-spacing:.03em}@media(prefers-reduced-motion:reduce){.nvstats .count{}}</style><div class='inner'><span class='ey' data-en='The Noor difference' data-fr='La difference Noor'>The Noor difference</span><h2><span data-en='Travel that feels ' data-fr='Des voyages cousus '>Travel that feels </span><span class='hand'>handmade.</span></h2><div class='ns'><div><div class='n'><span class='count' data-to='42'>0</span></div><div class='l' data-en='destinations on tap' data-fr='destinations au menu'>destinations on tap</div></div><div><div class='n'><span class='count' data-to='3.2' data-dec='1'>0</span>k</div><div class='l' data-en='happy voyagers' data-fr='voyageurs ravis'>happy voyagers</div></div><div><div class='n'><span class='count' data-to='4'>0</span>h</div><div class='l' data-en='max reply time' data-fr='delai de reponse max'>max reply time</div></div></div></div><script>(function(){var w=document.querySelector('.nvstats');if(!w)return;var red=window.matchMedia('(prefers-reduced-motion:reduce)').matches;function ap(l){w.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.textContent=v;});}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}if(cur==='FR')ap('FR');window.addEventListener('storage',function(e){if(e.key==='noor-lang')ap((e.newValue||'EN').toUpperCase());});document.addEventListener('click',function(e){if(e.target.closest('.lang,[data-nv-lang]')){setTimeout(function(){try{ap((localStorage.getItem('noor-lang')||'EN').toUpperCase());}catch(x){}},30);}});function run(el){var to=parseFloat(el.getAttribute('data-to'));var dec=parseInt(el.getAttribute('data-dec')||'0',10);if(red){el.textContent=to.toFixed(dec);return;}var st=null;function step(t){if(!st)st=t;var p=Math.min(1,(t-st)/1500);var e=1-Math.pow(1-p,3);el.textContent=(e*to).toFixed(dec);if(p<1)requestAnimationFrame(step);}requestAnimationFrame(step);}var seen=false;function go(){if(seen)return;seen=true;w.querySelectorAll('.count').forEach(run);}if('IntersectionObserver'in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting)go();});},{threshold:.3});io.observe(w);}else{go();}})();</script></section>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
