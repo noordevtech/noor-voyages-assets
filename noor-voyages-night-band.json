@@ -1,0 +1,30 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages Night Band",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvni01",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no", "structure": "10", "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+      "elements": [
+        {
+          "id": "nvnic1",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvnih1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class='nvnight'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&f[]=caveat-brush@400&display=swap');.nvnight{--pk:#FF4FA3;--tl:#14B8A6;--cl:#FF8A5B;--yl:#FFCE4E;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;--fb:'Satoshi',system-ui,sans-serif;--fh:'Caveat Brush',cursive;position:relative;overflow:hidden;font-family:var(--fb);background:var(--ik);color:var(--cr);border-top:2px solid var(--ik);border-bottom:2px solid var(--ik)}.nvnight *{box-sizing:border-box}.nvnight .bg{position:absolute;inset:-8% 0;z-index:0;background-image:url(https://wordpress-nginx-production-2777.up.railway.app/wp-content/uploads/2026/06/nv-night.jpg);background-size:cover;background-position:center;opacity:.5;animation:nvnz 22s ease-in-out infinite alternate}@keyframes nvnz{from{transform:scale(1.02) translateY(0)}to{transform:scale(1.12) translateY(-14px)}}.nvnight .veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(14,27,44,.86),rgba(14,27,44,.35) 45%,rgba(14,27,44,.88))}.nvnight .inner{position:relative;z-index:2;max-width:1100px;margin:0 auto;padding:140px 24px;text-align:center}.nvnight .ey{display:inline-flex;align-items:center;gap:8px;justify-content:center;font-weight:700;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--yl)}.nvnight .ey::before{content:'';width:24px;height:2px;background:var(--yl)}.nvnight h2{font-family:var(--fd);font-weight:600;font-size:clamp(44px,6.4vw,84px);letter-spacing:-.02em;line-height:.98;margin-top:18px}.nvnight .hand{font-family:var(--fh);color:var(--yl);font-weight:400}.nvnight .sub{margin:22px auto 0;max-width:540px;color:#fff6ecd1;font-size:18.5px}.nvnight .ns{display:flex;justify-content:center;gap:clamp(28px,6vw,84px);margin-top:64px;flex-wrap:wrap}.nvnight .n{font-family:var(--fd);font-weight:600;font-size:clamp(46px,6vw,76px);line-height:1}.nvnight .ns div:nth-child(1) .n{color:var(--pk)}.nvnight .ns div:nth-child(2) .n{color:var(--tl)}.nvnight .ns div:nth-child(3) .n{color:var(--yl)}.nvnight .ns div:nth-child(4) .n{color:var(--cl)}.nvnight .l{margin-top:8px;font-size:14.5px;color:#fff6eca6;letter-spacing:.04em}@media(prefers-reduced-motion:reduce){.nvnight .bg{animation:none}}</style><div class='bg'></div><div class='veil'></div><div class='inner'><span class='ey' data-en='The Noor difference' data-fr='La difference Noor'>The Noor difference</span><h2><span data-en='Travel that feels ' data-fr='Des voyages cousus '>Travel that feels </span><span class='hand'>handmade.</span></h2><p class='sub' data-en='Every itinerary is stitched by a human who has been there - and who picks up the phone when you call.' data-fr='Chaque itineraire est bati par un humain qui y est alle - et qui repond quand vous appelez.'>Every itinerary is stitched by a human who has been there - and who picks up the phone when you call.</p><div class='ns'><div><div class='n'><span class='count' data-to='42'>0</span></div><div class='l' data-en='destinations on tap' data-fr='destinations au menu'>destinations on tap</div></div><div><div class='n'><span class='count' data-to='3.2' data-dec='1'>0</span>k</div><div class='l' data-en='happy voyagers' data-fr='voyageurs ravis'>happy voyagers</div></div><div><div class='n'><span class='count' data-to='60'>0</span>+</div><div class='l' data-en='years of combined experience' data-fr='ans d experience cumulee'>years of combined experience</div></div><div><div class='n'><span class='count' data-to='4'>0</span>h</div><div class='l' data-en='max reply time' data-fr='delai de reponse max'>max reply time</div></div></div></div><script>(function(){var w=document.querySelector('.nvnight');if(!w)return;var red=window.matchMedia('(prefers-reduced-motion:reduce)').matches;function ap(l){w.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.textContent=v;});}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}if(cur==='FR')ap('FR');window.addEventListener('storage',function(e){if(e.key==='noor-lang')ap((e.newValue||'EN').toUpperCase());});document.addEventListener('click',function(e){if(e.target.closest('.lang,[data-nv-lang]')){setTimeout(function(){try{ap((localStorage.getItem('noor-lang')||'EN').toUpperCase());}catch(x){}},30);}});function run(el){var to=parseFloat(el.getAttribute('data-to'));var dec=parseInt(el.getAttribute('data-dec')||'0',10);if(red){el.textContent=to.toFixed(dec);return;}var st=null;function step(t){if(!st)st=t;var p=Math.min(1,(t-st)/1500);var e=1-Math.pow(1-p,3);el.textContent=(e*to).toFixed(dec);if(p<1)requestAnimationFrame(step);}requestAnimationFrame(step);}var seen=false;function go(){if(seen)return;seen=true;w.querySelectorAll('.count').forEach(run);}if('IntersectionObserver'in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting)go();});},{threshold:.3});io.observe(w);}else{go();}})();</script></section>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
