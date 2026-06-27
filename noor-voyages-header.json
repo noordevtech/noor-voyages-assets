@@ -1,0 +1,35 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages Header",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvhead01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "structure": "10",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "nvhcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvhhtml1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<header class='nvh'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&display=swap');.nvh{--pk:#FF4FA3;--tl:#14B8A6;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;--fb:'Satoshi',system-ui,sans-serif;position:sticky;top:0;z-index:1000;font-family:var(--fb)}.nvh *{box-sizing:border-box}.nvh a{text-decoration:none}.nvh .bar{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 24px;background:var(--cr);border-bottom:2px solid var(--ik)}.nvh .logo{font-family:var(--fd);font-weight:700;font-size:18px;letter-spacing:.12em;color:var(--ik)}.nvh .links{display:flex;gap:4px}.nvh .links a{padding:9px 14px;border-radius:999px;font-weight:500;font-size:14.5px;color:var(--ik);transition:background .2s}.nvh .links a:hover{background:#0e1b2c12}.nvh .cta{display:flex;align-items:center;gap:10px}.nvh .lang{border:2px solid var(--ik);border-radius:999px;padding:8px 14px;font-family:var(--fd);font-weight:600;font-size:13px;background:var(--cr);color:var(--ik);cursor:pointer;transition:background .2s,color .2s}.nvh .lang:hover{background:var(--ik);color:var(--cr)}.nvh .book{border:2px solid var(--ik);border-radius:999px;padding:11px 18px;font-family:var(--fd);font-weight:600;font-size:14px;background:var(--pk);color:#fff;box-shadow:4px 4px 0 var(--ik);transition:transform .18s,box-shadow .18s}.nvh .book:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ik)}.nvh .burger{display:none;flex-direction:column;gap:5px;padding:11px;border:2px solid var(--ik);border-radius:999px;background:var(--cr);cursor:pointer}.nvh .burger span{width:20px;height:2px;background:var(--ik);border-radius:2px;transition:transform .3s,opacity .3s}.nvh .burger.on span:nth-child(1){transform:translateY(7px) rotate(45deg)}.nvh .burger.on span:nth-child(2){opacity:0}.nvh .burger.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.nvh .mobile{display:none;flex-direction:column;background:var(--ik)}.nvh .mobile.open{display:flex}.nvh .mobile a{padding:15px 24px;color:var(--cr);font-family:var(--fd);font-weight:600;font-size:18px;border-top:1px solid #fff6ec1a}.nvh .mobile a.bk{color:var(--pk)}@media(max-width:860px){.nvh .links{display:none}.nvh .book{display:none}.nvh .burger{display:flex}}</style><div class='bar'><a class='logo' href='/'>NOOR VOYAGES</a><nav class='links'><a href='/destinations/' data-en='Destinations' data-fr='Destinations'>Destinations</a><a href='/packages/' data-en='Packages' data-fr='Forfaits'>Packages</a><a href='/flights/' data-en='Flights' data-fr='Vols'>Flights</a><a href='/about/' data-en='About' data-fr='À propos'>About</a><a href='/contact/' data-en='Contact us' data-fr='Nous joindre'>Contact us</a></nav><div class='cta'><button class='lang'>FR</button><a class='book' href='/contact/' data-en='Book a trip' data-fr='Réserver'>Book a trip</a><button class='burger' aria-label='Menu'><span></span><span></span><span></span></button></div></div><div class='mobile'><a href='/destinations/' data-en='Destinations' data-fr='Destinations'>Destinations</a><a href='/packages/' data-en='Packages' data-fr='Forfaits'>Packages</a><a href='/flights/' data-en='Flights' data-fr='Vols'>Flights</a><a href='/about/' data-en='About' data-fr='À propos'>About</a><a href='/contact/' data-en='Contact us' data-fr='Nous joindre'>Contact us</a><a class='bk' href='/contact/' data-en='Book a trip' data-fr='Réserver'>Book a trip</a></div><script>(function(){var h=document.querySelector('.nvh');if(!h)return;var lang=h.querySelector('.lang');var burger=h.querySelector('.burger');var mob=h.querySelector('.mobile');function ap(l){h.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.textContent=v;});lang.textContent=(l==='FR'?'EN':'FR');}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}ap(cur);lang.addEventListener('click',function(){cur=(cur==='EN'?'FR':'EN');try{localStorage.setItem('noor-lang',cur);}catch(e){}ap(cur);});burger.addEventListener('click',function(){mob.classList.toggle('open');burger.classList.toggle('on');});mob.addEventListener('click',function(e){if(e.target.closest('a')){mob.classList.remove('open');burger.classList.remove('on');}});})();</script></header>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
