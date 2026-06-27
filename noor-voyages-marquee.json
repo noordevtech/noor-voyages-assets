@@ -1,0 +1,30 @@
+{
+  "version": "0.4",
+  "title": "Noor Voyages Marquee",
+  "type": "section",
+  "content": [
+    {
+      "id": "nvmq01",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no", "structure": "10", "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+      "elements": [
+        {
+          "id": "nvmqc1",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "nvmqh1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class='nvmq'><style>@import url('https://api.fontshare.com/v2/css?f[]=clash-display@500,600&display=swap');.nvmq{--pk:#FF4FA3;--tl:#14B8A6;--yl:#FFCE4E;--cl:#FF8A5B;--cr:#FFF6EC;--ik:#0E1B2C;--fd:'Clash Display',system-ui,sans-serif;background:var(--ik);color:var(--cr);border-top:2px solid var(--ik);border-bottom:2px solid var(--ik);overflow:hidden;white-space:nowrap}.nvmq *{box-sizing:border-box}.nvmq .track{display:inline-flex;will-change:transform;animation:nvmqs 42s linear infinite}.nvmq:hover .track{animation-play-state:paused}.nvmq .item{display:inline-flex;align-items:center;gap:18px;padding:15px 26px;font-family:var(--fd);font-weight:500;font-size:18px;letter-spacing:.02em}.nvmq .dot{width:8px;height:8px;border-radius:999px;background:var(--pk);flex:none}.nvmq .item:nth-child(4n+2) .dot{background:var(--tl)}.nvmq .item:nth-child(4n+3) .dot{background:var(--yl)}.nvmq .item:nth-child(4n) .dot{background:var(--cl)}@keyframes nvmqs{from{transform:translateX(0)}to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.nvmq .track{animation:none}}</style><div class='track'><span class='item'><span class='dot'></span><span data-en='Wheels up since 2025' data-fr='En vol depuis 2025'>Wheels up since 2025</span></span><span class='item'><span class='dot'></span><span data-en='Based in Montreal ✈ Flying worldwide' data-fr='Bases a Montreal ✈ Partout dans le monde'>Based in Montreal ✈ Flying worldwide</span></span><span class='item'><span class='dot'></span><span data-en='Honeymoons, Hajj &amp; Umrah, family tours' data-fr='Lunes de miel, Hajj &amp; Omra, voyages en famille'>Honeymoons, Hajj &amp; Umrah, family tours</span></span><span class='item'><span class='dot'></span><span data-en='Bilingual agents - English &amp; Francais' data-fr='Agents bilingues - francais &amp; English'>Bilingual agents - English &amp; Francais</span></span><span class='item'><span class='dot'></span><span>450-600-1616</span></span><span class='item'><span class='dot'></span><span data-en='IATA-accredited partners' data-fr='Partenaires accredites IATA'>IATA-accredited partners</span></span><span class='item'><span class='dot'></span><span data-en='Wheels up since 2025' data-fr='En vol depuis 2025'>Wheels up since 2025</span></span><span class='item'><span class='dot'></span><span data-en='Based in Montreal ✈ Flying worldwide' data-fr='Bases a Montreal ✈ Partout dans le monde'>Based in Montreal ✈ Flying worldwide</span></span><span class='item'><span class='dot'></span><span data-en='Honeymoons, Hajj &amp; Umrah, family tours' data-fr='Lunes de miel, Hajj &amp; Omra, voyages en famille'>Honeymoons, Hajj &amp; Umrah, family tours</span></span><span class='item'><span class='dot'></span><span data-en='Bilingual agents - English &amp; Francais' data-fr='Agents bilingues - francais &amp; English'>Bilingual agents - English &amp; Francais</span></span><span class='item'><span class='dot'></span><span>450-600-1616</span></span><span class='item'><span class='dot'></span><span data-en='IATA-accredited partners' data-fr='Partenaires accredites IATA'>IATA-accredited partners</span></span></div><script>(function(){var m=document.querySelector('.nvmq');if(!m)return;function ap(l){m.querySelectorAll('[data-en]').forEach(function(s){var v=s.getAttribute('data-'+l.toLowerCase());if(v!=null)s.textContent=v;});}var cur='EN';try{cur=(localStorage.getItem('noor-lang')||'EN').toUpperCase();}catch(e){}if(cur==='FR')ap('FR');window.addEventListener('storage',function(e){if(e.key==='noor-lang')ap((e.newValue||'EN').toUpperCase());});document.addEventListener('click',function(e){if(e.target.closest('.lang,[data-nv-lang]')){setTimeout(function(){try{ap((localStorage.getItem('noor-lang')||'EN').toUpperCase());}catch(x){}},30);}});})();</script></section>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
